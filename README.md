@@ -11,7 +11,13 @@ The analyzer uses a **limited set of keywords** to identify errors and warnings,
 
 ## Usage
 
-Run the script by providing the file you want to analyze:
+1. Clone the repository:
+```bash
+  git clone https://github.com/d4vidlinux/file_analyzer.git
+  cd file_analyzer
+```
+    
+2. Run the script by providing the file you want to analyze:
 
 ```bash
 python3 file_analyzer.py FILE
