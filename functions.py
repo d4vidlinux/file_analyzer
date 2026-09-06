@@ -3,7 +3,7 @@ import sys
 ERRORS = ["error", "couldn't", "cannot", "no such file", "failed", "fail"]
 WARNING = ["warning", "warn", "[!]"]
 
-## Contador de linhas
+## Line count
 def lineCount(FILE):
     with open(FILE, "r") as file:
         for indice, name in enumerate(file):
