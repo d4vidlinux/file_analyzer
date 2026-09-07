@@ -1,6 +1,6 @@
 import sys
 
-ERRORS = ["error", "couldn't", "cannot", "no such file", "failed", "fail"]
+ERRORS = ["error", "couldn't", "cannot", "no such file", "failed", "fail", "fatal"]
 WARNING = ["warning", "warn", "[!]"]
 
 ## Line count
